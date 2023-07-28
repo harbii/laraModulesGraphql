@@ -1,0 +1,12 @@
+type atomNamespaces {
+    models:        [ String ]
+    queries:       [ String ]
+    mutations:     [ String ]
+    subscriptions: [ String ]
+    types:         [ String ]
+    interfaces:    [ String ]
+    unions:        [ String ]
+    scalars:       [ String ]
+    directives:    [ String ]
+    validators:    [ String ]
+}

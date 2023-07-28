@@ -1,0 +1,4 @@
+type atomNamespacesResponse {
+    data:   atomNamespaces
+    status: Status
+}

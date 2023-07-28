@@ -1,0 +1,9 @@
+extend type Mutation {
+	atomProcessTest:                                                 payloadResponse @field( resolver: "CliProcess@Test"            )
+	atomProcessOptimizeClear:                                        payloadResponse @field( resolver: "CliProcess@optimizeClear"   )
+	atomProcessLighthouseClear:                                      payloadResponse @field( resolver: "CliProcess@lighthouseClear" )
+	# atomProcessPassport( data: atomProcessPassportInput ! @spread ): payloadResponse @field( resolver: "CliProcess@passport"        )
+}
+# input atomProcessPassportInput{
+#     provider: AuthenticationProviders!
+# }
